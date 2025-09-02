@@ -99,7 +99,7 @@ client.on('messageCreate', async (message) => {
 
     try {
         const response = await openai.chat.completions.create({
-            model: 'qwen/qwen3-235b-a22b-07-25:free',
+            model: 'openai/gpt-oss-120b:free',
             messages: conversation,
         });
 
