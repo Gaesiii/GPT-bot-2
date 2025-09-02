@@ -1,7 +1,6 @@
 require('dotenv/config');
 const { Client, GatewayIntentBits } = require('discord.js');
 const { joinVoiceChannel, getVoiceConnection } = require('@discordjs/voice');
-const OpenAI = require('openai');
 const express = require('express');
 const axios = require('axios');
 
