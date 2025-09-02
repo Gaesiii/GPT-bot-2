@@ -31,9 +31,9 @@ client.on('ready', () => {
 });
 
 const IGNORE_PREFIX = '!';
-const CHANNELS = ['1411402607708340279'];
-const VOICE_CHANNEL_ID = '1376792649524187169';
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1377993619205787658/ZX3UC-remR1dftGVQb1HZRukikLzVu-llBRNOSD2xzbnYDMFMda8YFGcEOaxJkANl_Q6';
+const CHANNELS = ['1411402607708340275'];
+
+
 
 const openai = new OpenAI({
     apiKey: process.env.OPENROUTER_API_KEY,
